@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            | <a href="Home.html">Home</a> 
+            | <a href="About.html">About</a>  
+            | <a href="Berita.html">Berita</a> 
+            | <a href="Contact.html">Contact</a> |
+        </nav>
+    </header>
+
+    <section>
+        <p>Ini adalah contoh teks yang akan diisi untuk konten.</p>
+    </section>
+
+    <footer>
+        <h3>Link Rekomendasi</h3>
+        <ul>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
+            <li><a href="https://upj.ac.id" target="_blank">UPJ</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
